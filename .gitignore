@@ -1,0 +1,9 @@
+*.dll
+*.pdb
+*.suo
+*.lock
+*.ide
+*.vs
+packages
+Debug
+bin
