@@ -1,2 +1,0 @@
-# WCFPracticeDemo
-WCF practice demo.

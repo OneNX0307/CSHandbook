@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.Demo.QuickStart.Legacy", "Implementation\Prism.Demo.QuickStart\Prism.Demo.QuickStart.Legacy.csproj", "{92D0A8E8-B98F-4DA6-8BD2-4A335C7F4D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prism.Demo.QuickStart.New", "Implementation\Prism.Demo.QuickStart.New\Prism.Demo.QuickStart.New.csproj", "{19F4D5E1-DF10-427B-94B2-4C3265A13EE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92D0A8E8-B98F-4DA6-8BD2-4A335C7F4D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D0A8E8-B98F-4DA6-8BD2-4A335C7F4D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D0A8E8-B98F-4DA6-8BD2-4A335C7F4D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D0A8E8-B98F-4DA6-8BD2-4A335C7F4D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19F4D5E1-DF10-427B-94B2-4C3265A13EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F4D5E1-DF10-427B-94B2-4C3265A13EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F4D5E1-DF10-427B-94B2-4C3265A13EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F4D5E1-DF10-427B-94B2-4C3265A13EE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04ED9B2A-6AA1-4BAB-B3D1-3E40FBCD7B25}
+	EndGlobalSection
+EndGlobal

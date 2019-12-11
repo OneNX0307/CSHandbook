@@ -6,4 +6,11 @@
 *.vs
 packages
 Debug
+obj
 bin
+*.pfx
+compile
+refs
+dotjs
+dot
+*.json

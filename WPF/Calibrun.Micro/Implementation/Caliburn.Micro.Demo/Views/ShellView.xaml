@@ -1,0 +1,49 @@
+﻿<Window x:Class="Caliburn.Micro.Demo.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Caliburn.Micro.Demo.Views"
+        xmlns:cal="http://www.caliburnproject.org"
+        mc:Ignorable="d"
+        Name="HandwriterNameInXaml"
+        Title="ShellView" Height="300" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5"/>
+        </Grid.ColumnDefinitions>
+        <!-- Button $this-->
+        <Button x:Name="thisBtn" Content="$this" Grid.Row="1" Grid.Column="1" Margin="5"
+                cal:Message.Attach="[Event Click]=[Action ThisClick($this)]"/>
+
+        <!--Button  $source -->
+        <Button x:Name="sourceBtn" Content="$source" Grid.Row="1" Grid.Column="2" Margin="5"
+                cal:Message.Attach="[Event Click]=[Action SourceClick($source)]"/>
+
+        <!--Button  $view -->
+        <Button x:Name="viewBtn" Content="$view" Grid.Row="1" Grid.Column="3" Margin="5"
+                cal:Message.Attach="[Event Click]=[Action ViewClick($view)]"/>
+
+        <!--Button  $eventArgs -->
+        <Button x:Name="eventBtn" Content="$eventArgs" Grid.Row="2" Grid.Column="1" Margin="5"
+                cal:Message.Attach="[Event Click]=[Action EventArgsClick($eventArgs)]"/>
+
+        <!--Button  $dataContext -->
+        <Button x:Name="dataContextBtn" Content="$dataContext" Grid.Row="2" Grid.Column="2" Margin="5"
+                cal:Message.Attach="[Event Click]=[Action DataContextClick($dataContext)]"/>
+
+        <!--Button  $executionContext -->
+        <Button x:Name="executionContextBtn" Content="$executionContext" Grid.Row="2" Grid.Column="3" Margin="5"
+                cal:Message.Attach="[Event Click]=[Action ExecutionContextClick($executionContext)]"/>
+    </Grid>
+</Window>
