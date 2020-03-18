@@ -37,6 +37,8 @@ namespace ConsoleApp17
 			{
 				Console.WriteLine("Same");
 			}
+
+			Console.Read();
 		}
 	}
 }
