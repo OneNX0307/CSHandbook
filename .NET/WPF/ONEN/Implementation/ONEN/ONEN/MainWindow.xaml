@@ -1,0 +1,79 @@
+﻿<Window x:Class="ONEN.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ONEN"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="250" x:Name="LeftSide"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <!--LeftSide-->
+            <!--Menu-->
+            <Grid Grid.Row="0">
+                <Button HorizontalAlignment="Right" Background="White" BorderBrush="White" Click="MenuClick">
+                    <Image Source="Images/menu.png" HorizontalAlignment="Right" Margin="3"/>
+                </Button>
+            </Grid>
+            <!--Avatar-->
+            <Grid Grid.Row="1">
+                <StackPanel>
+                    <Image x:Name="Avator" Source="Images/avatar.png" Width="30" Height="30" Margin="0 5"/>
+                </StackPanel>
+            </Grid>
+            <!--Name-->
+            <Grid Grid.Row="2">
+                <StackPanel>
+                    <TextBlock x:Name="UserName" Text="OneN" Foreground="#8F8F8F" FontWeight="Bold" FontSize="13" Margin="10 -5" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+            <!--LeftContent-->
+        <Grid Grid.Row="3">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+        </Grid>
+        <!--RightSide-->
+
+            <!--Control Button-->
+            <Grid x:Name="ctlRegion" Grid.Column="1" Background="#2E8B57">
+                <StackPanel Panel.ZIndex="1" Orientation="Horizontal" HorizontalAlignment="Right" Grid.ColumnSpan="2">
+                    <Button Name="btnmin" Width="45" Height="30" Content="─" Foreground="White" BorderThickness="0" Background="Transparent" Click="DoMin" />
+                    <Button Name="btnmax" Width="45" Height="30" Content="☐" Foreground="White" BorderThickness="0" Background="Transparent" Click="DoMax"/>
+                    <Button Name="btnclose" Width="45" Height="30" Content="✕" Foreground="White" BorderThickness="0" Background="Transparent" Click="DoClose"/>
+                </StackPanel>
+            </Grid>
+            <!--Main Content-->
+        <Grid Grid.Row="1" Grid.RowSpan="3" Grid.Column="1" Background="#2E8B57">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="0.25*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="Add" Opacity="0.2"  Margin="30,30, 0 , 30">
+                    <Image Source="Images/add.png" Width="30" Height="30"/>
+                </Button>
+                <TextBox x:Name="todoCotent" Margin="0, 30, 30, 30" Opacity="0.2" Foreground="Black" Grid.Column="1" FontSize="20" VerticalContentAlignment="Center"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
