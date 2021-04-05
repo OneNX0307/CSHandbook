@@ -1,0 +1,23 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <title></title>
+</head>
+<body>
+    <div>
+        <button class="btn btn-default" id="OneNXBtn">点我</button>
+    </div>
+    <script>
+        $("#OneNXBtn").click(function () {
+            $.getScript("A");
+        });
+    </script>
+</body>
+</html>

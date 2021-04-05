@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.WPF.Note.Layout", "Implementation\OneNX.WPF.Note\OneNX.WPF.Note\OneNX.WPF.Note.Layout.csproj", "{BF2F2168-0ABC-4DE9-96DA-B833DB84B610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.WPF.Note.Control", "Implementation\OneNX.WPF.Note.Control\OneNX.WPF.Note.Control.csproj", "{8F1EFB7A-40A9-4F11-8292-23A48F265C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.WPF.Note.Binding", "Implementation\OneNX.WPF.Note.Binding\OneNX.WPF.Note.Binding.csproj", "{7087924C-5761-4B6A-AD5C-6CEC2F46C81C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.WPF.Note.Resource", "Implementation\OneNX.WPF.Note.Resource\OneNX.WPF.Note.Resource.csproj", "{3FA2F37A-F2AF-4596-87BF-A6760EF9C49F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.WPF.Note.Style", "Implementation\OneNX.WPF.Note.Style\OneNX.WPF.Note.Style.csproj", "{A327AC64-A2C1-4757-BC27-32758ED31E20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.WPF.Note.Animation", "Implementation\OneNX.WPF.Note.Animation\OneNX.WPF.Note.Animation.csproj", "{F636A3A9-5F27-47BD-BBB4-BBDD4E1432A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.WPF.Note.Template", "Implementation\OneNX.WPF.Note.Template\OneNX.WPF.Note.Template.csproj", "{2EF5242B-3424-49D4-BD1F-B76EDDD49FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.WPF.Note.DependencyProperty", "Implementation\OneNX.WPF.Note.DependencyProperty\OneNX.WPF.Note.DependencyProperty.csproj", "{BF818BE2-7427-4C4A-8F65-B6A9BA4B48F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.WPF.Note.Blend", "Implementation\OneNX.WPF.Note.Blend\OneNX.WPF.Note.Blend.csproj", "{EEE6D9CF-D9F9-4156-B5C9-E9179A508F9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Note", "Note", "{43D70BFB-2491-4327-AF70-D5AA1E594CBA}"
+	ProjectSection(SolutionItems) = preProject
+		Layout.md = Layout.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF2F2168-0ABC-4DE9-96DA-B833DB84B610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2F2168-0ABC-4DE9-96DA-B833DB84B610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2F2168-0ABC-4DE9-96DA-B833DB84B610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2F2168-0ABC-4DE9-96DA-B833DB84B610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1EFB7A-40A9-4F11-8292-23A48F265C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1EFB7A-40A9-4F11-8292-23A48F265C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1EFB7A-40A9-4F11-8292-23A48F265C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1EFB7A-40A9-4F11-8292-23A48F265C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7087924C-5761-4B6A-AD5C-6CEC2F46C81C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7087924C-5761-4B6A-AD5C-6CEC2F46C81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7087924C-5761-4B6A-AD5C-6CEC2F46C81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7087924C-5761-4B6A-AD5C-6CEC2F46C81C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA2F37A-F2AF-4596-87BF-A6760EF9C49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA2F37A-F2AF-4596-87BF-A6760EF9C49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA2F37A-F2AF-4596-87BF-A6760EF9C49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA2F37A-F2AF-4596-87BF-A6760EF9C49F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A327AC64-A2C1-4757-BC27-32758ED31E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A327AC64-A2C1-4757-BC27-32758ED31E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A327AC64-A2C1-4757-BC27-32758ED31E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A327AC64-A2C1-4757-BC27-32758ED31E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F636A3A9-5F27-47BD-BBB4-BBDD4E1432A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F636A3A9-5F27-47BD-BBB4-BBDD4E1432A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F636A3A9-5F27-47BD-BBB4-BBDD4E1432A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F636A3A9-5F27-47BD-BBB4-BBDD4E1432A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF5242B-3424-49D4-BD1F-B76EDDD49FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF5242B-3424-49D4-BD1F-B76EDDD49FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF5242B-3424-49D4-BD1F-B76EDDD49FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF5242B-3424-49D4-BD1F-B76EDDD49FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF818BE2-7427-4C4A-8F65-B6A9BA4B48F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF818BE2-7427-4C4A-8F65-B6A9BA4B48F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF818BE2-7427-4C4A-8F65-B6A9BA4B48F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF818BE2-7427-4C4A-8F65-B6A9BA4B48F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE6D9CF-D9F9-4156-B5C9-E9179A508F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE6D9CF-D9F9-4156-B5C9-E9179A508F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE6D9CF-D9F9-4156-B5C9-E9179A508F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE6D9CF-D9F9-4156-B5C9-E9179A508F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68DFE379-1520-4198-9B00-21323358E1A3}
+	EndGlobalSection
+EndGlobal

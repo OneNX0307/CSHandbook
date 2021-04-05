@@ -23,5 +23,10 @@ namespace CMDemo.Views
         {
             InitializeComponent();
         }
-    }
+
+		private void DataGridHyperlinkColumn_Click(object sender, RoutedEventArgs e)
+		{
+         MessageBox.Show("Hello");
+		}
+	}
 }

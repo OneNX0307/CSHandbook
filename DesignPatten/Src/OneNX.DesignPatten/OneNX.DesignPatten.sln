@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.DesignPatten.SimpleFactory", "Implementation\OneNX.DesignPatten.SimpleFactory\OneNX.DesignPatten.SimpleFactory.csproj", "{9B436B65-039C-40DC-BA35-AA53D4223A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.DesignPatten.SimpleFactory.Client", "Implementation\OneNX.DesignPatten.SimpleFactory.Client\OneNX.DesignPatten.SimpleFactory.Client.csproj", "{88D78137-BAA7-411C-B366-2FA529A66DB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[01]Creational", "[01]Creational", "{7582B018-1ACB-4729-9CDC-023FD891A00A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[02]Structural", "[02]Structural", "{5AF48CD6-A26E-49C4-9BEC-E4C6BAF362EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "[03]Behavioral", "[03]Behavioral", "{81CE6D3C-C878-45A1-8CC3-93B986BBF089}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{338C4B97-96A1-49E9-A6F8-96078D012FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.DesignPatten.FactoryMethod", "Implementation\OneNX.DesignPatten.FactoryMethod\OneNX.DesignPatten.FactoryMethod.csproj", "{9A2E8178-E14F-4E54-881D-C339A11B3FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.DesignPatten.FactoryMethod.Client", "Implementation\OneNX.DesignPatten.FactoryMethod.Client\OneNX.DesignPatten.FactoryMethod.Client.csproj", "{42068F2A-0477-4A52-B20D-ECBE6C77D9FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.DesignPatten.AbstractFactory", "Implementation\OneNX.DesignPatten.AbstractFactory\OneNX.DesignPatten.AbstractFactory.csproj", "{DF3453E3-E4E1-4D49-B0DF-A82FE47EBCEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneNX.DesignPatten.AbstractFactory.Client", "Implementation\OneNX.DesignPatten.AbstractFactory.Client\OneNX.DesignPatten.AbstractFactory.Client.csproj", "{F187DF1F-1ED2-4DCD-9DB9-0AEEEBD7499A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B436B65-039C-40DC-BA35-AA53D4223A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B436B65-039C-40DC-BA35-AA53D4223A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B436B65-039C-40DC-BA35-AA53D4223A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B436B65-039C-40DC-BA35-AA53D4223A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D78137-BAA7-411C-B366-2FA529A66DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D78137-BAA7-411C-B366-2FA529A66DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D78137-BAA7-411C-B366-2FA529A66DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D78137-BAA7-411C-B366-2FA529A66DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A2E8178-E14F-4E54-881D-C339A11B3FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A2E8178-E14F-4E54-881D-C339A11B3FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A2E8178-E14F-4E54-881D-C339A11B3FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A2E8178-E14F-4E54-881D-C339A11B3FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42068F2A-0477-4A52-B20D-ECBE6C77D9FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42068F2A-0477-4A52-B20D-ECBE6C77D9FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42068F2A-0477-4A52-B20D-ECBE6C77D9FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42068F2A-0477-4A52-B20D-ECBE6C77D9FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3453E3-E4E1-4D49-B0DF-A82FE47EBCEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3453E3-E4E1-4D49-B0DF-A82FE47EBCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3453E3-E4E1-4D49-B0DF-A82FE47EBCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3453E3-E4E1-4D49-B0DF-A82FE47EBCEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F187DF1F-1ED2-4DCD-9DB9-0AEEEBD7499A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F187DF1F-1ED2-4DCD-9DB9-0AEEEBD7499A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F187DF1F-1ED2-4DCD-9DB9-0AEEEBD7499A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F187DF1F-1ED2-4DCD-9DB9-0AEEEBD7499A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B436B65-039C-40DC-BA35-AA53D4223A0D} = {7582B018-1ACB-4729-9CDC-023FD891A00A}
+		{88D78137-BAA7-411C-B366-2FA529A66DB1} = {338C4B97-96A1-49E9-A6F8-96078D012FB7}
+		{9A2E8178-E14F-4E54-881D-C339A11B3FDD} = {7582B018-1ACB-4729-9CDC-023FD891A00A}
+		{42068F2A-0477-4A52-B20D-ECBE6C77D9FA} = {338C4B97-96A1-49E9-A6F8-96078D012FB7}
+		{DF3453E3-E4E1-4D49-B0DF-A82FE47EBCEE} = {7582B018-1ACB-4729-9CDC-023FD891A00A}
+		{F187DF1F-1ED2-4DCD-9DB9-0AEEEBD7499A} = {338C4B97-96A1-49E9-A6F8-96078D012FB7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10B52CF1-8057-4E3F-BF6E-10EBA39DB1AA}
+	EndGlobalSection
+EndGlobal

@@ -48,6 +48,8 @@ namespace CSharpDemo.MultiThread
 			Task task03B = factory.StartNew(() => Console.WriteLine("Task created with factory with lambda."));
 			Task task04A = factory.StartNew(TaskHandler04A, "04A");
 			Task task04B = factory.StartNew(x => Console.WriteLine((string)x), "04B");
+
+			Task task04C = Task.Factory.StartNew(() => Console.WriteLine("Task with Task.Factory.StartNew..."));
 			#endregion
 
 			#region Task with a return

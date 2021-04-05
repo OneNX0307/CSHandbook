@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDemo.MultiThread", "Implementation\CSharpDemo.MultiThread\CSharpDemo.MultiThread.csproj", "{0B5E7D3B-0B6C-4FD9-B285-8DA91C11EF06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDemo.ThreadSync", "Implementation\CSharpDemo.ThreadSync\CSharpDemo.ThreadSync.csproj", "{3210E99F-6ADE-4EA6-8DE0-74F905C126C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDemo.ThreadContinue", "Implementation\CSharpDemo.ThreadContinue\CSharpDemo.ThreadContinue.csproj", "{6CEEDA4A-D317-4B69-9978-0CBE82249F45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3210E99F-6ADE-4EA6-8DE0-74F905C126C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3210E99F-6ADE-4EA6-8DE0-74F905C126C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3210E99F-6ADE-4EA6-8DE0-74F905C126C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEEDA4A-D317-4B69-9978-0CBE82249F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEEDA4A-D317-4B69-9978-0CBE82249F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEEDA4A-D317-4B69-9978-0CBE82249F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEEDA4A-D317-4B69-9978-0CBE82249F45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

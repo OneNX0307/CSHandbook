@@ -14,6 +14,7 @@ namespace Caliburn.Micro.Demo.ViewModels
         #region Properties
         public int Id { get; set; } = 1;
         #endregion
+
         #region Cotr
         public ShellViewModel()
         {

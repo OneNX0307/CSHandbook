@@ -7,20 +7,15 @@
         xmlns:local="clr-namespace:CMDemo.Views"
         mc:Ignorable="d"
         Title="ShellView" Height="450" Width="800">
-    <DockPanel>
-        <Button x:Name="OpenTab"
-                Content="Open Tab" 
-                DockPanel.Dock="Top" />
-        <TabControl x:Name="Items">
-            <TabControl.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="{Binding DisplayName}" />
-                        <Button Content="X"
-                                cal:Message.Attach="DeactivateItem($dataContext, 'true')" />
-                    </StackPanel>
-                </DataTemplate>
-            </TabControl.ItemTemplate>
-        </TabControl>
-    </DockPanel>
+    <Grid>
+        <DataGrid ItemsSource="{Binding Students, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding ID}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Score" Binding="{Binding Score}"/>
+                <DataGridComboBoxColumn Header="Score" ItemsSource="{Binding Classes}"/>
+                <DataGridCheckBoxColumn Header="Score1" Binding="{Binding Score}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
 </Window>
